@@ -15,6 +15,16 @@ A camada de ***interface*** é a camada onde é feita a ***conversão de dados p
 
 A camada de ***Frameworks/Drivers*** é a camada onde ocorre o envio das informações seja para web ou para o banco de dados.
 
+## Vantagens que temos com o DDD
+***Alinhamento do Código com o negócio:*** o contato dos desenvolvedores com os especialistas do domínio é algo essencial quando se faz DDD.
+
+***Favorecer reutilização:*** os blocos de construção que facilitam aproveitar um mesmo conceito de domínio ou um mesmo código em vários lugares. 
+
+***Mínimo de acoplamento:*** Com um modelo bem-feito, organizado, as várias partes de um sistema interagem sem que haja muita dependência entre os módulos ou classes de objetos de conceitos distintos.
+
+***Independência da Tecnologia:*** DDD não foca em tecnologia, mas sim em entender as regras de negócio e como elas devem estar refletidas no código e no modelo de domínio. Não que a tecnologia usada não seja importante, mas essa não é uma preocupação de DDD.
+
+
 ___
 ### Detalhes do Projeto
 Você deve ter instalado o ***__.net 6.0 SDK__***
@@ -79,8 +89,6 @@ dotnet add ./Project.Tests/Project.Tests.csproj reference ./Project/Project.cspr
 
 ## Alunos - Desenvolvedores
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
 
 | RA     | Nome                | Github User                            |
 | ------ | ------------------- | -------------------------------------- |
